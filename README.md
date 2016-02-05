@@ -6,6 +6,10 @@ ckeditor-html5-audio is a CKEditor plugin that allows to insert HTML5 audio easi
 
 ## Installation
 
+Available on the official CKEditor add-on repository:
+
+http://ckeditor.com/addon/html5audio
+
 If you want to add the plugin manually, you will need to:
 
 1. Extract the html5audio folder into the plugins folder of your CKEditor installation. Example:
