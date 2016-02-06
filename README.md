@@ -14,15 +14,15 @@ If you want to add the plugin manually, you will need to:
 
 1. Extract the html5audio folder into the plugins folder of your CKEditor installation. Example:
 
-```
-http://example.com/ckeditor/plugins/html5audio
-```
+    ```
+    http://example.com/ckeditor/plugins/html5audio
+    ```
 
 2. Enable the plugin by using the extraPlugins configurations setting. Example:
 
-```
-config.extraPlugins = 'html5audio';
-```
+    ```
+    config.extraPlugins = 'html5audio';
+    ```
 
 3. Download and configure all its dependencies, too.
 
