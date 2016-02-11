@@ -3,4 +3,5 @@ CKEDITOR.plugins.setLang( 'html5audio', 'en', {
     title: 'HTML5 audio',
     infoLabel: 'Audio info',
     urlMissing: 'Audio source URL is missing.',
+    audioProperties: 'Audio properties'
 } );
