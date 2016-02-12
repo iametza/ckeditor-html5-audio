@@ -3,5 +3,5 @@ CKEDITOR.plugins.setLang( 'html5audio', 'ru', {
     title: 'HTML5 аудио',
     infoLabel: 'Аудио',
     urlMissing: 'Не выбран источник аудио',
-    audioProperties: 'аудио свойства'
+    audioProperties: 'Свойства аудио'
 } );
