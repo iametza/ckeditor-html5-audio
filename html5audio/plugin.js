@@ -7,8 +7,13 @@ CKEDITOR.plugins.add( 'html5audio', {
             button: editor.lang.html5audio.button,
             template: '<div class="ckeditor-html5-audio"><audio src="" controls="controls"></audio></div>',
             editables: {},
-            allowedContent: 'div(!ckeditor-html5-audio); audio;',
-            requiredContent: 'div(ckeditor-html5-audio); audio',
+            /*
+             * Allowed content rules (http://docs.ckeditor.com/#!/guide/dev_allowed_content_rules):
+             *  - div-s with text-align,float,margin-left,margin-right inline style rules and required ckeditor-html5-audio class.
+             *  - audio tags with src and controls attributes.
+             */
+            allowedContent: 'div(!ckeditor-html5-audio){text-align,float,margin-left,margin-right}; audio[src,controls];',
+            requiredContent: 'div(ckeditor-html5-audio); audio[src,controls];',
             upcast: function( element ) {
                 return element.name === 'div' && element.hasClass( 'ckeditor-html5-audio' );
             },
