@@ -3,5 +3,7 @@ CKEDITOR.plugins.setLang( 'html5audio', 'es', {
     title: 'Audio HTML5',
     infoLabel: 'Información del audio',
     urlMissing: 'La URL del audio no puede estar vacia.',
-    audioProperties: 'Propiedades del audio'
+    audioProperties: 'Propiedades del audio',
+    upload: 'Cargar',
+    btnUpload: 'Enviar al servidor'
 } );

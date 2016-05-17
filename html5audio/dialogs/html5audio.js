@@ -68,11 +68,11 @@ CKEDITOR.dialog.add( 'html5audio', function( editor ) {
             id: 'Upload',
             hidden: true,
             filebrowser: 'uploadButton',
-            label: editor.lang.image.upload,
+            label: editor.lang.html5audio.upload,
             elements: [ {
                 type: 'file',
                 id: 'upload',
-                label: editor.lang.image.btnUpload,
+                label: editor.lang.html5audio.btnUpload,
                 style: 'height:40px',
                 size: 38
             },
@@ -80,7 +80,7 @@ CKEDITOR.dialog.add( 'html5audio', function( editor ) {
                 type: 'fileButton',
                 id: 'uploadButton',
                 filebrowser: 'info:url',
-                label: editor.lang.image.btnUpload,
+                label: editor.lang.html5audio.btnUpload,
                 'for': [ 'Upload', 'upload' ]
             } ]
         } ]
