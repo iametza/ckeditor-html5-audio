@@ -58,6 +58,33 @@ More translations are welcome and will be included in next releases. If you want
 
 6. Create a pull request with your changes.
 
+## Version history
+
+### 1.2.0 - 2016-05-19
+
+* Bug fixes:
+
+    * Didn't work with the Basic Package due to missing translation strings.
+
+        https://github.com/iametza/ckeditor-html5-audio/issues/3
+
+    * Going back and forth to source code edition removed attributes and styles.
+
+        https://github.com/iametza/ckeditor-html5-audio/issues/4
+
+### 1.1.0 - 2016-02-12
+
+* Added context menu
+* Fixed the left/right alignment
+
+### 1.0.1 - 2016-02-05
+
+* Added Russian translation. Thanks smartcorestudio!
+* Small bugfixes and improvements
+
+### 1.0.0 - 2016-02-05
+* Initial release
+
 ## License
 
 ckeditor-html5-audio is free software/open source, and is distributed under the GNU General Public License (GPL) version 3 license.
