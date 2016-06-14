@@ -60,6 +60,10 @@ More translations are welcome and will be included in next releases. If you want
 
 ## Version history
 
+### 1.3.0 - 2016-06-14
+
+* Added option to set autoplay attribute
+
 ### 1.2.0 - 2016-05-19
 
 * Bug fixes:
