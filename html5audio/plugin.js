@@ -12,7 +12,7 @@ CKEDITOR.plugins.add( 'html5audio', {
              *  - div-s with text-align,float,margin-left,margin-right inline style rules and required ckeditor-html5-audio class.
              *  - audio tags with src and controls attributes.
              */
-            allowedContent: 'div(!ckeditor-html5-audio){text-align,float,margin-left,margin-right}; audio[src,controls];',
+            allowedContent: 'div(!ckeditor-html5-audio){text-align,float,margin-left,margin-right}; audio[src,controls,autoplay];',
             requiredContent: 'div(ckeditor-html5-audio); audio[src,controls];',
             upcast: function( element ) {
                 return element.name === 'div' && element.hasClass( 'ckeditor-html5-audio' );
@@ -21,6 +21,7 @@ CKEDITOR.plugins.add( 'html5audio', {
             init: function() {
                 var src = this.element.getChild( 0 ).getAttribute( 'src' );
                 var align = this.element.getStyle( 'text-align' );
+                var autoplay = this.element.getChild( 0 ).getAttribute( 'autoplay' );
 
                 if ( src ) {
                     this.setData( 'src', src );
@@ -29,6 +30,10 @@ CKEDITOR.plugins.add( 'html5audio', {
                         this.setData( 'align', align );
                     } else {
                         this.setData( 'align', 'none' );
+                    }
+
+                    if ( autoplay ) {
+                        this.setData( 'autoplay', 'yes' );
                     }
                 }
             },
@@ -51,6 +56,12 @@ CKEDITOR.plugins.add( 'html5audio', {
                 } else if ( this.data.align === 'right' ) {
                     this.element.setStyle( 'float', this.data.align );
                     this.element.setStyle( 'margin-left', '10px' );
+                }
+
+                if ( this.data.autoplay === 'yes' ) {
+                    this.element.getChild( 0 ).setAttribute( 'autoplay', 'autoplay' );
+                } else {
+                    this.element.getChild( 0 ).removeAttribute( 'autoplay' );
                 }
             }
         } );

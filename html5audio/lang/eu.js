@@ -5,5 +5,9 @@ CKEDITOR.plugins.setLang( 'html5audio', 'eu', {
     urlMissing: 'Audioaren URLak ezin du hutsik egon.',
     audioProperties: 'Audioaren propietateak',
     upload: 'Kargatu',
-    btnUpload: 'Bidali zerbitzarira'
+    btnUpload: 'Bidali zerbitzarira',
+    advanced: 'Aurreratua',
+    autoplay: 'Automatikoki erreproduzitu?',
+    yes: 'Bai',
+    no: 'Ez'
 } );

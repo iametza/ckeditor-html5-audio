@@ -5,5 +5,9 @@ CKEDITOR.plugins.setLang( 'html5audio', 'en', {
     urlMissing: 'Audio source URL is missing.',
     audioProperties: 'Audio properties',
     upload: 'Upload',
-    btnUpload: 'Send it to the server'
+    btnUpload: 'Send it to the server',
+    advanced: 'Advanced',
+    autoplay: 'Autoplay?',
+    yes: 'Yes',
+    no: 'No'
 } );

@@ -5,5 +5,9 @@ CKEDITOR.plugins.setLang( 'html5audio', 'ru', {
     urlMissing: 'Не выбран источник аудио',
     audioProperties: 'Свойства аудио',
     upload: 'Загрузить',
-    btnUpload: 'Загрузить на сервер'
+    btnUpload: 'Загрузить на сервер',
+    advanced: 'Дополнительно',
+    autoplay: 'Autoplay?',
+    yes: 'Да',
+    no: 'Нет'
 } );
