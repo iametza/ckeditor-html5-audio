@@ -92,28 +92,23 @@ CKEDITOR.dialog.add( 'html5audio', function( editor ) {
                 padding: 0,
                 children: [ {
                     type: 'hbox',
-                    widths: [ '365px', '110px' ],
-                    align: 'right',
                     children: [ {
-                        type: 'hbox',
-                        children: [ {
-                            type: 'radio',
-                            id: 'autoplay',
-                            label: editor.lang.html5audio.autoplay,
-                            items: [
-                                [editor.lang.html5audio.yes, 'yes'],
-                                [editor.lang.html5audio.no, 'no']
-                            ],
-                            'default': 'no',
-                            setup: function( widget ) {
-                                if ( widget.data.autoplay ) {
-                                    this.setValue( widget.data.autoplay );
-                                }
-                            },
-                            commit: function( widget ) {
-                                widget.setData( 'autoplay', this.getValue() );
+                        type: 'radio',
+                        id: 'autoplay',
+                        label: editor.lang.html5audio.autoplay,
+                        items: [
+                            [editor.lang.html5audio.yes, 'yes'],
+                            [editor.lang.html5audio.no, 'no']
+                        ],
+                        'default': 'no',
+                        setup: function( widget ) {
+                            if ( widget.data.autoplay ) {
+                                this.setValue( widget.data.autoplay );
                             }
-                        } ]
+                        },
+                        commit: function( widget ) {
+                            widget.setData( 'autoplay', this.getValue() );
+                        }
                     } ]
                 } ]
             } ]
