@@ -61,6 +61,10 @@ More translations are welcome and will be included in next releases. If you want
 
 ## Version history
 
+### 1.3.1 - 2016-06-16
+
+* Added Ukrainian translation. Thanks [Sensetivity](https://github.com/Sensetivity)!
+
 ### 1.3.0 - 2016-06-14
 
 * Added option to set autoplay attribute
@@ -84,7 +88,7 @@ More translations are welcome and will be included in next releases. If you want
 
 ### 1.0.1 - 2016-02-05
 
-* Added Russian translation. Thanks smartcorestudio!
+* Added Russian translation. Thanks [smartcorestudio](https://github.com/smartcorestudio)!
 * Small bugfixes and improvements
 
 ### 1.0.0 - 2016-02-05
