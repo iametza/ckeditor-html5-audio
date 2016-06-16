@@ -34,7 +34,8 @@ If you want to add the plugin manually, you will need to:
 
 We want to thank all the people who helped translating this plugin:
 
-* **Russian**: smartcorestudio
+* **Russian**: [smartcorestudio](https://github.com/smartcorestudio)
+* **Ukrainian** [Sensetivity](https://github.com/Sensetivity)
 
 More translations are welcome and will be included in next releases. If you want to translate this plugin to your language follow these steps:
 
