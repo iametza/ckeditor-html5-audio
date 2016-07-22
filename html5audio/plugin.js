@@ -5,7 +5,8 @@ CKEDITOR.plugins.add( 'html5audio', {
     init: function( editor ) {
         editor.widgets.add( 'html5audio', {
             button: editor.lang.html5audio.button,
-            template: '<div class="ckeditor-html5-audio"><audio src="" controls="controls"></audio></div>',
+            template: '<div class="ckeditor-html5-audio"></div>',   // We add the audio element when needed in the data function, to avoid having an undefined src attribute.
+                                                                    // See issue #9 on github: https://github.com/iametza/ckeditor-html5-audio/issues/9
             editables: {},
             /*
              * Allowed content rules (http://docs.ckeditor.com/#!/guide/dev_allowed_content_rules):
@@ -19,9 +20,16 @@ CKEDITOR.plugins.add( 'html5audio', {
             },
             dialog: 'html5audio',
             init: function() {
-                var src = this.element.getChild( 0 ).getAttribute( 'src' );
+                var src = '';
+                var autoplay = '';
                 var align = this.element.getStyle( 'text-align' );
-                var autoplay = this.element.getChild( 0 ).getAttribute( 'autoplay' );
+
+                // If there's a child (the audio element)
+                if ( this.element.getChild( 0 ) ) {
+                    // get it's attributes.
+                    src = this.element.getChild( 0 ).getAttribute( 'src' );
+                    autoplay = this.element.getChild( 0 ).getAttribute( 'autoplay' );
+                }
 
                 if ( src ) {
                     this.setData( 'src', src );
@@ -38,7 +46,19 @@ CKEDITOR.plugins.add( 'html5audio', {
                 }
             },
             data: function() {
-                this.element.getChild( 0 ).setAttribute( 'src', this.data.src );
+                // If there is an audio source
+                if ( this.data.src ) {
+                    // and there isn't a child (the audio element)
+                    if ( !this.element.getChild( 0 ) ) {
+                        // Create a new <audio> element.
+                        var audioElement = new CKEDITOR.dom.element( 'audio' );
+                        // Set the controls attribute.
+                        audioElement.setAttribute( 'controls', 'controls' );
+                        // Append it to the container of the plugin.
+                        this.element.append( audioElement );
+                    }
+                    this.element.getChild( 0 ).setAttribute( 'src', this.data.src );
+                }
 
                 this.element.removeStyle( 'float' );
                 this.element.removeStyle( 'margin-left' );
@@ -58,10 +78,12 @@ CKEDITOR.plugins.add( 'html5audio', {
                     this.element.setStyle( 'margin-left', '10px' );
                 }
 
-                if ( this.data.autoplay === 'yes' ) {
-                    this.element.getChild( 0 ).setAttribute( 'autoplay', 'autoplay' );
-                } else {
-                    this.element.getChild( 0 ).removeAttribute( 'autoplay' );
+                if ( this.element.getChild( 0 ) ) {
+                    if ( this.data.autoplay === 'yes' ) {
+                        this.element.getChild( 0 ).setAttribute( 'autoplay', 'autoplay' );
+                    } else {
+                        this.element.getChild( 0 ).removeAttribute( 'autoplay' );
+                    }
                 }
             }
         } );
