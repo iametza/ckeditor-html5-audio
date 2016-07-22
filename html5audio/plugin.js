@@ -70,7 +70,7 @@ CKEDITOR.plugins.add( 'html5audio', {
             editor.addMenuGroup( 'html5audioGroup' );
             editor.addMenuItem( 'html5audioPropertiesItem', {
                 label: editor.lang.html5audio.audioProperties,
-                icon: this.path + 'icons/html5audio.png',
+                icon: 'html5audio',
                 command: 'html5audio',
                 group: 'html5audioGroup'
             });
