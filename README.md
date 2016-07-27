@@ -61,6 +61,11 @@ More translations are welcome and will be included in next releases. If you want
 
 ## Version history
 
+### 1.3.2 - 2016-07-27
+
+* Fixed [#9](https://github.com/iametza/ckeditor-html5-audio/issues/9): Undefined resource fetched while opening the audio dialog
+* Fixed [#10](https://github.com/iametza/ckeditor-html5-audio/issues/10): Missing icon for the context menu in built version
+
 ### 1.3.1 - 2016-06-16
 
 * Added Ukrainian translation. Thanks [Sensetivity](https://github.com/Sensetivity)!
