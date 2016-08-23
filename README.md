@@ -34,6 +34,7 @@ If you want to add the plugin manually, you will need to:
 
 We want to thank all the people who helped translating this plugin:
 
+* **German**: [Mischa Sameli](https://github.com/jenzener)
 * **Russian**: [smartcorestudio](https://github.com/smartcorestudio)
 * **Ukrainian** [Sensetivity](https://github.com/Sensetivity)
 
