@@ -62,6 +62,10 @@ More translations are welcome and will be included in next releases. If you want
 
 ## Version history
 
+### 1.3.3 - 2016-08-23
+
+* Added German translation. Thanks [Mischa Sameli](https://github.com/jenzener)!
+
 ### 1.3.2 - 2016-07-27
 
 * Fixed [#9](https://github.com/iametza/ckeditor-html5-audio/issues/9): Undefined resource fetched while opening the audio dialog
