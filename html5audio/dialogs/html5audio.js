@@ -35,7 +35,11 @@ CKEDITOR.dialog.add( 'html5audio', function( editor ) {
                         align: 'center',
                         label: editor.lang.common.browseServer,
                         hidden: true,
-                        filebrowser: 'info:url'
+                        filebrowser: {
+                            action : 'Browse',
+                            target: 'info:url',
+                            url: editor.config.filebrowserAudioBrowseUrl || editor.config.filebrowserBrowseUrl
+                        }
                     } ]
                 } ]
             },
@@ -79,7 +83,11 @@ CKEDITOR.dialog.add( 'html5audio', function( editor ) {
             {
                 type: 'fileButton',
                 id: 'uploadButton',
-                filebrowser: 'info:url',
+                filebrowser: {
+                    action : 'Upload',
+                    target: 'info:url',
+                    url: editor.config.filebrowserAudioUploadUrl || editor.config.filebrowserUploadUrl
+                },
                 label: editor.lang.html5audio.btnUpload,
                 'for': [ 'Upload', 'upload' ]
             } ]
