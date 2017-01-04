@@ -38,6 +38,7 @@ We want to thank all the people who helped translating this plugin:
 * **German**: [Mischa Sameli](https://github.com/jenzener)
 * **Russian**: [smartcorestudio](https://github.com/smartcorestudio)
 * **Ukrainian** [Sensetivity](https://github.com/Sensetivity)
+* **Uzbek** [Bahriddin Abdiev](https://github.com/bahriddin)
 
 More translations are welcome and will be included in next releases. If you want to translate this plugin to your language follow these steps:
 
@@ -56,12 +57,16 @@ More translations are welcome and will be included in next releases. If you want
 5. Add the two letter code of your language to the string in the third line of the plugin.js file:
 
     ```
-    lang: 'en,eu,es,ru',
+    lang: 'de,en,eu,es,fr,ru,uk,uz',
     ```
 
 6. Create a pull request with your changes.
 
 ## Version history
+
+### 1.3.5 - 2017-01-04
+
+* Added Uzbek translation. Thanks [Bahriddin Abdiev](https://github.com/bahriddin)!
 
 ### 1.3.4 - 2016-10-10
 
