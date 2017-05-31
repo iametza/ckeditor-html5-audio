@@ -1,4 +1,4 @@
-CKEDITOR.plugins.setLang( 'html5audio', 'zh', {
+CKEDITOR.plugins.setLang( 'html5audio', 'zh-cn', {
     button: '插入HTML5音频',
     title: 'HTML5 音频',
     infoLabel: '音频信息',

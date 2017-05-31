@@ -58,7 +58,7 @@ More translations are welcome and will be included in next releases. If you want
 5. Add the two letter code of your language to the string in the third line of the plugin.js file:
 
     ```
-    lang: 'de,en,eu,es,fr,ru,uk,uz,zh',
+    lang: 'de,en,eu,es,fr,ru,uk,uz,zh-cn',
     ```
 
 6. Create a pull request with your changes.
