@@ -34,6 +34,7 @@ If you want to add the plugin manually, you will need to:
 
 We want to thank all the people who helped translating this plugin:
 
+* **Chinese**: [郑东武](https://github.com/machinelll)
 * **French**: [Simon Georget](https://github.com/simogeo)
 * **German**: [Mischa Sameli](https://github.com/jenzener)
 * **Russian**: [smartcorestudio](https://github.com/smartcorestudio)
@@ -63,6 +64,10 @@ More translations are welcome and will be included in next releases. If you want
 6. Create a pull request with your changes.
 
 ## Version history
+
+### 1.3.6 - 2017-05-31
+
+* Added Chinese translation. Thanks [郑东武](https://github.com/machinelll)!
 
 ### 1.3.5 - 2017-01-04
 
