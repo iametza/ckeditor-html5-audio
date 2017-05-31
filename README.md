@@ -121,4 +121,6 @@ More translations are welcome and will be included in next releases. If you want
 
 ## License
 
-ckeditor-html5-audio is free software/open source, and is distributed under the GNU General Public License (GPL) version 3 license.
+ckeditor-html5-audio is free software/open source, and is distributed under the [GNU General Public License v3](http://www.gnu.org/licenses/gpl.html) license.
+
+<a rel="license" href="http://www.gnu.org/licenses/gpl.html"><img alt="GNU General Public License version 3" style="border-width:0" src="http://www.gnu.org/graphics/gplv3-127x51.png" /></a>
