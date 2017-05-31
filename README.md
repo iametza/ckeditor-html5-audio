@@ -65,6 +65,10 @@ More translations are welcome and will be included in next releases. If you want
 
 ## Version history
 
+### 1.3.7 - 2017-05-31
+
+* Changed Chinese language code from zh to zh-cn. CKEditor Builder doesn't include zh.
+
 ### 1.3.6 - 2017-05-31
 
 * Added Chinese translation. Thanks [郑东武](https://github.com/machinelll)!
