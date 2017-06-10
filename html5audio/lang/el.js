@@ -1,4 +1,4 @@
-CKEDITOR.plugins.setLang( 'html5audio', 'gr', {
+CKEDITOR.plugins.setLang( 'html5audio', 'el', {
     button: 'Προσθέστε HTML5 ήχο',
     title: 'HTML5 ήχος',
     infoLabel: 'Πληροφορίες ήχου',
