@@ -37,6 +37,7 @@ We want to thank all the people who helped translating this plugin:
 * **Chinese**: [郑东武](https://github.com/machinelll)
 * **French**: [Simon Georget](https://github.com/simogeo)
 * **German**: [Mischa Sameli](https://github.com/jenzener)
+* **Greek**: [Dimitris Kritsotakis](https://github.com/dimitriskr)
 * **Russian**: [smartcorestudio](https://github.com/smartcorestudio)
 * **Ukrainian** [Sensetivity](https://github.com/Sensetivity)
 * **Uzbek** [Bahriddin Abdiev](https://github.com/bahriddin)
@@ -58,7 +59,7 @@ More translations are welcome and will be included in next releases. If you want
 5. Add the two letter code of your language to the string in the third line of the plugin.js file:
 
     ```
-    lang: 'de,en,eu,es,fr,ru,uk,uz,zh-cn',
+    lang: 'de,en,eu,es,fr,ru,uk,uz,zh-cn,gr',
     ```
 
 6. Create a pull request with your changes.
