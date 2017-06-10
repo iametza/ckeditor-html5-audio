@@ -66,6 +66,10 @@ More translations are welcome and will be included in next releases. If you want
 
 ## Version history
 
+### 1.3.8 - 2017-06-10
+
+* Added Greek translation. Thanks [Dimitris Kritsotakis](https://github.com/dimitriskr)!
+
 ### 1.3.7 - 2017-05-31
 
 * Changed Chinese language code from zh to zh-cn. CKEditor Builder doesn't include zh.
