@@ -1,4 +1,4 @@
-CKEDITOR.plugins.setLang( 'html5audio', 'uk', {
+CKEDITOR.plugins.setLang('html5audio', 'uk', {
     button: 'Вставити HTML5 аудіо',
     title: 'HTML5 аудіо',
     infoLabel: 'Інформація',
@@ -8,6 +8,7 @@ CKEDITOR.plugins.setLang( 'html5audio', 'uk', {
     btnUpload: 'Відвантажити на сервер',
     advanced: 'Додатково',
     autoplay: 'Автовідтворення?',
+    allowdownload: 'Дозволити завантажити?',
     yes: 'Так',
     no: 'Ні'
-} );
+});
