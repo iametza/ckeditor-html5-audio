@@ -66,6 +66,10 @@ More translations are welcome and will be included in next releases. If you want
 
 ## Version history
 
+### 1.4.0 - 2017-07-17
+
+* Added an option to disable download. Code contributed by [Nour Akalay](https://github.com/mnakalay). Thanks!
+
 ### 1.3.8 - 2017-06-10
 
 * Added Greek translation. Thanks [Dimitris Kritsotakis](https://github.com/dimitriskr)!
