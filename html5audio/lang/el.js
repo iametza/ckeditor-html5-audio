@@ -1,4 +1,4 @@
-CKEDITOR.plugins.setLang( 'html5audio', 'el', {
+CKEDITOR.plugins.setLang('html5audio', 'el', {
     button: 'Προσθέστε HTML5 ήχο',
     title: 'HTML5 ήχος',
     infoLabel: 'Πληροφορίες ήχου',
@@ -8,6 +8,7 @@ CKEDITOR.plugins.setLang( 'html5audio', 'el', {
     btnUpload: 'Αποστολή στον διακομιστή',
     advanced: 'Προχωρημένα',
     autoplay: 'Αυτόματη αναπαραγωγή;',
+    allowdownload: 'Επιτρέψτε τη λήψη;',
     yes: 'Ναι',
     no: 'Όχι'
-} );
+});

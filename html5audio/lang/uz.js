@@ -1,4 +1,4 @@
-CKEDITOR.plugins.setLang( 'html5audio', 'uz', {
+CKEDITOR.plugins.setLang('html5audio', 'uz', {
     button: 'HTML5 audio qo‘shing',
     title: 'HTML5 audio',
     infoLabel: 'Audio ma\'lumot',
@@ -8,6 +8,7 @@ CKEDITOR.plugins.setLang( 'html5audio', 'uz', {
     btnUpload: 'Serverga jo‘natish',
     advanced: 'Kengaytrilgan',
     autoplay: 'Avtoijro?',
+    allowdownload: 'Yuklab olish uchun ruxsat berilsinmi?',
     yes: 'Ha',
     no: 'Yo‘q'
-} );
+});
