@@ -1,4 +1,4 @@
-CKEDITOR.plugins.setLang('html5audio', 'fr', {
+CKEDITOR.plugins.setLang( 'html5audio', 'fr', {
     button: 'Insérer un lecteur audio HTML5',
     title: 'HTML5 audio',
     infoLabel: 'Informations audio',
@@ -11,4 +11,4 @@ CKEDITOR.plugins.setLang('html5audio', 'fr', {
     allowdownload: 'Autoriser le téléchargement?',
     yes: 'Oui',
     no: 'Non'
-});
+} );

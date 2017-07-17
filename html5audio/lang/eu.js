@@ -1,4 +1,4 @@
-CKEDITOR.plugins.setLang('html5audio', 'eu', {
+CKEDITOR.plugins.setLang( 'html5audio', 'eu', {
     button: 'Txertatu HTML5 audioa',
     title: 'HTML5 audioa',
     infoLabel: 'Audioaren informazioa',
@@ -11,4 +11,4 @@ CKEDITOR.plugins.setLang('html5audio', 'eu', {
     allowdownload: 'Baimendu deskargatzea?',
     yes: 'Bai',
     no: 'Ez'
-});
+} );
