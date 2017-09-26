@@ -35,6 +35,7 @@ If you want to add the plugin manually, you will need to:
 We want to thank all the people who helped translating this plugin:
 
 * **Chinese**: [郑东武](https://github.com/machinelll)
+* **Farsi (Persian)**: Mohammad Hossein Rabiee (https://github.com/mhrabiee)
 * **French**: [Simon Georget](https://github.com/simogeo)
 * **German**: [Mischa Sameli](https://github.com/jenzener)
 * **Greek**: [Dimitris Kritsotakis](https://github.com/dimitriskr)
@@ -59,12 +60,16 @@ More translations are welcome and will be included in next releases. If you want
 5. Add the two letter code of your language to the string in the third line of the plugin.js file:
 
     ```
-    lang: 'de,el,en,eu,es,fr,ru,uk,uz,zh-cn',
+    lang: 'de,el,en,eu,es,fa,fr,ru,uk,uz,zh-cn',
     ```
 
 6. Create a pull request with your changes.
 
 ## Version history
+
+### 1.4.1 - 2017-09-26
+
+* Added Farsi (Persian) translation. Thanks [Mohammad Hossein Rabiee](https://github.com/mhrabiee)!
 
 ### 1.4.0 - 2017-07-17
 
