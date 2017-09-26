@@ -35,7 +35,7 @@ If you want to add the plugin manually, you will need to:
 We want to thank all the people who helped translating this plugin:
 
 * **Chinese**: [郑东武](https://github.com/machinelll)
-* **Farsi (Persian)**: Mohammad Hossein Rabiee (https://github.com/mhrabiee)
+* **Farsi (Persian)**: [Mohammad Hossein Rabiee] (https://github.com/mhrabiee)
 * **French**: [Simon Georget](https://github.com/simogeo)
 * **German**: [Mischa Sameli](https://github.com/jenzener)
 * **Greek**: [Dimitris Kritsotakis](https://github.com/dimitriskr)
