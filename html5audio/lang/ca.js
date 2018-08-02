@@ -5,10 +5,10 @@ CKEDITOR.plugins.setLang( 'html5audio', 'ca', {
     urlMissing: "Falta l'URL d'origen d'àudio.",
     audioProperties: "Propietats de l'àudio",
     upload: "Pujar",
-    btnUpload: 'Envia-lo al servidor',
-    advanced: 'Avançat',
-    autoplay: 'Reproducció automàtica?',
-    allowdownload: 'Permet la descàrrega?',
-    yes: 'Sí',
-    no: 'No'
+    btnUpload: "Envia-lo al servidor",
+    advanced: "Avançat",
+    autoplay: "Reproducció automàtica?",
+    allowdownload: "Permet la descàrrega?",
+    yes: "Sí",
+    no: "No"
 } );
