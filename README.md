@@ -35,6 +35,7 @@ If you want to add the plugin manually, you will need to:
 We want to thank all the people who helped translating this plugin:
 
 * **Bulgarian**: [N. Petkov](https://github.com/nmpetkov)
+* **Catalan**: [jhuguco](https://github.com/jhuguco)
 * **Chinese**: [郑东武](https://github.com/machinelll)
 * **Farsi (Persian)**: [Mohammad Hossein Rabiee](https://github.com/mhrabiee)
 * **French**: [Simon Georget](https://github.com/simogeo)
@@ -61,12 +62,16 @@ More translations are welcome and will be included in next releases. If you want
 5. Add the two letter code of your language to the string in the third line of the plugin.js file:
 
     ```
-    lang: 'bg,de,el,en,eu,es,fa,fr,ru,uk,uz,zh-cn',
+    lang: 'bg,ca,de,el,en,eu,es,fa,fr,ru,uk,uz,zh-cn',
     ```
 
 6. Create a pull request with your changes.
 
 ## Version history
+
+### 1.4.3 - 2018-08-27
+
+* Added Catalan translation. Thanks [jhuguco](https://github.com/jhuguco)!
 
 ### 1.4.2 - 2018-04-04
 
