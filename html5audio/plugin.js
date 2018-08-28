@@ -30,6 +30,7 @@ CKEDITOR.plugins.add( 'html5audio', {
                     src = this.element.getChild( 0 ).getAttribute( 'src' );
                     autoplay = this.element.getChild( 0 ).getAttribute( 'autoplay' );
                     allowdownload = !this.element.getChild( 0 ).getAttribute( 'controlslist' );
+                    advisorytitle = this.element.getChild( 0 ).getAttribute( 'title' );
                 }
 
                 if ( src ) {
@@ -47,6 +48,10 @@ CKEDITOR.plugins.add( 'html5audio', {
 
                     if ( allowdownload ) {
                         this.setData( 'allowdownload', 'yes' );
+                    }
+								
+                    if ( advisorytitle ) {
+                        this.setData( 'advisorytitle', advisorytitle );
                     }
                 }
             },
@@ -89,10 +94,17 @@ CKEDITOR.plugins.add( 'html5audio', {
                     } else {
                         this.element.getChild( 0 ).removeAttribute( 'autoplay' );
                     }
+
                     if ( this.data.allowdownload === 'yes' ) {
                         this.element.getChild( 0 ).removeAttribute( 'controlslist' );
                     } else {
                         this.element.getChild( 0 ).setAttribute( 'controlslist', 'nodownload' );
+                    }
+
+                    if ( this.data.advisorytitle ) {
+                        this.element.getChild( 0 ).setAttribute( 'title', this.data.advisorytitle );
+                    } else {
+                        this.element.getChild( 0 ).removeAttribute( 'title' );
                     }
                 }
             }

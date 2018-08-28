@@ -9,6 +9,7 @@ CKEDITOR.plugins.setLang( 'html5audio', 'es', {
     advanced: 'Avanzado',
     autoplay: '¿Reproducir automáticamente?',
     allowdownload: '¿Permitir la descarga?',
+    advisorytitle: 'Advisory title',
     yes: 'Si',
     no: 'No'
 } );
