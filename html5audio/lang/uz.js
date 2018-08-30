@@ -9,6 +9,7 @@ CKEDITOR.plugins.setLang( 'html5audio', 'uz', {
     advanced: 'Kengaytrilgan',
     autoplay: 'Avtoijro?',
     allowdownload: 'Yuklab olish uchun ruxsat berilsinmi?',
+    advisorytitle: 'Advisory title',
     yes: 'Ha',
     no: 'Yo‘q'
 } );
