@@ -9,7 +9,7 @@ CKEDITOR.plugins.setLang( 'html5audio', 'eu', {
     advanced: 'Aurreratua',
     autoplay: 'Automatikoki erreproduzitu?',
     allowdownload: 'Baimendu deskargatzea?',
-    advisorytitle: 'Advisory title',
+    advisorytitle: 'Argibidea',
     yes: 'Bai',
     no: 'Ez'
 } );
