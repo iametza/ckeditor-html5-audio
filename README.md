@@ -69,6 +69,11 @@ More translations are welcome and will be included in next releases. If you want
 
 ## Version history
 
+### 1.5.0 - 2019-03-04
+
+* Added Advisory title in the advanced tab to manage the "title" attribute of the audio tag. Thanks [N. Petkov](https://github.com/nmpetkov)!
+* Updated Ukrainian translation. Thanks [Sensetivity](https://github.com/Sensetivity)!
+
 ### 1.4.3 - 2018-08-27
 
 * Added Catalan translation. Thanks [jhuguco](https://github.com/jhuguco)!
