@@ -2,6 +2,7 @@ CKEDITOR.plugins.add( 'html5audio', {
     requires: 'widget',
     lang: 'bg,ca,de,el,en,eu,es,fr,ru,uk,uz,zh-cn,fa',
     icons: 'html5audio',
+    hidpi: true,
     init: function( editor ) {
         editor.widgets.add( 'html5audio', {
             button: editor.lang.html5audio.button,
