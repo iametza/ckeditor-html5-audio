@@ -2,7 +2,7 @@
 
 ## Introduction
 
-ckeditor-html5-audio is a CKEditor plugin that allows to insert HTML5 audio easily.
+ckeditor-html5-audio is a CKEditor plugin that allows the easy insertion of HTML5 audio players.
 
 ## Installation
 
@@ -34,8 +34,16 @@ If you want to add the plugin manually, you will need to:
 
 We want to thank all the people who helped translating this plugin:
 
+* **Bulgarian**: [N. Petkov](https://github.com/nmpetkov)
+* **Catalan**: [jhuguco](https://github.com/jhuguco)
+* **Chinese**: [郑东武](https://github.com/machinelll)
+* **Farsi (Persian)**: [Mohammad Hossein Rabiee](https://github.com/mhrabiee)
+* **French**: [Simon Georget](https://github.com/simogeo)
+* **German**: [Mischa Sameli](https://github.com/jenzener)
+* **Greek**: [Dimitris Kritsotakis](https://github.com/dimitriskr)
 * **Russian**: [smartcorestudio](https://github.com/smartcorestudio)
 * **Ukrainian** [Sensetivity](https://github.com/Sensetivity)
+* **Uzbek** [Bahriddin Abdiev](https://github.com/bahriddin)
 
 More translations are welcome and will be included in next releases. If you want to translate this plugin to your language follow these steps:
 
@@ -54,12 +62,61 @@ More translations are welcome and will be included in next releases. If you want
 5. Add the two letter code of your language to the string in the third line of the plugin.js file:
 
     ```
-    lang: 'en,eu,es,ru',
+    lang: 'bg,ca,de,el,en,eu,es,fa,fr,ru,uk,uz,zh-cn',
     ```
 
 6. Create a pull request with your changes.
 
 ## Version history
+
+### 1.5.1 - 2019-06-14
+
+* Updated French and German translations. Thanks [Mischa Sameli](https://github.com/jenzener)!
+
+### 1.5.0 - 2019-03-04
+
+* Added Advisory title in the advanced tab to manage the "title" attribute of the audio tag. Thanks [N. Petkov](https://github.com/nmpetkov)!
+* Updated Ukrainian translation. Thanks [Sensetivity](https://github.com/Sensetivity)!
+
+### 1.4.3 - 2018-08-27
+
+* Added Catalan translation. Thanks [jhuguco](https://github.com/jhuguco)!
+
+### 1.4.2 - 2018-04-04
+
+* Added Bulgarian translation. Thanks [N. Petkov](https://github.com/nmpetkov)!
+
+### 1.4.1 - 2017-09-26
+
+* Added Farsi (Persian) translation. Thanks [Mohammad Hossein Rabiee](https://github.com/mhrabiee)!
+
+### 1.4.0 - 2017-07-17
+
+* Added an option to disable download. Code contributed by [Nour Akalay](https://github.com/mnakalay). Thanks!
+
+### 1.3.8 - 2017-06-10
+
+* Added Greek translation. Thanks [Dimitris Kritsotakis](https://github.com/dimitriskr)!
+
+### 1.3.7 - 2017-05-31
+
+* Changed Chinese language code from zh to zh-cn. CKEditor Builder doesn't include zh.
+
+### 1.3.6 - 2017-05-31
+
+* Added Chinese translation. Thanks [郑东武](https://github.com/machinelll)!
+
+### 1.3.5 - 2017-01-04
+
+* Added Uzbek translation. Thanks [Bahriddin Abdiev](https://github.com/bahriddin)!
+
+### 1.3.4 - 2016-10-10
+
+* Added French translation. Thanks [Simon Georget](https://github.com/simogeo)!
+
+### 1.3.3 - 2016-08-23
+
+* Added German translation. Thanks [Mischa Sameli](https://github.com/jenzener)!
 
 ### 1.3.2 - 2016-07-27
 
@@ -101,4 +158,6 @@ More translations are welcome and will be included in next releases. If you want
 
 ## License
 
-ckeditor-html5-audio is free software/open source, and is distributed under the GNU General Public License (GPL) version 3 license.
+ckeditor-html5-audio is free software/open source, and is distributed under the [GNU General Public License v3](http://www.gnu.org/licenses/gpl.html) license.
+
+<a rel="license" href="http://www.gnu.org/licenses/gpl.html"><img alt="GNU General Public License version 3" style="border-width:0" src="http://www.gnu.org/graphics/gplv3-127x51.png" /></a>

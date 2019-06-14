@@ -8,6 +8,8 @@ CKEDITOR.plugins.setLang( 'html5audio', 'uk', {
     btnUpload: 'Відвантажити на сервер',
     advanced: 'Додатково',
     autoplay: 'Автовідтворення?',
+    allowdownload: 'Дозволити завантаження?',
+    advisorytitle: 'Заголовок',
     yes: 'Так',
     no: 'Ні'
 } );
