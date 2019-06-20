@@ -69,6 +69,10 @@ More translations are welcome and will be included in next releases. If you want
 
 ## Version history
 
+### 1.5.2 - 2019-06-20
+
+* Added hidpi icon. Thanks [Mischa Sameli](https://github.com/jenzener)!
+
 ### 1.5.1 - 2019-06-14
 
 * Updated French and German translations. Thanks [Mischa Sameli](https://github.com/jenzener)!
