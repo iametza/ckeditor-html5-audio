@@ -9,7 +9,7 @@ CKEDITOR.plugins.setLang( 'html5audio', 'zh-cn', {
     advanced: '高级',
     autoplay: '自动播放?',
     allowdownload: '允许下载?',
-    advisorytitle: 'Advisory title',
+    advisorytitle: '提示语',
     yes: '是',
     no: '否'
 } );
