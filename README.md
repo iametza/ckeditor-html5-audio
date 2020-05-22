@@ -36,7 +36,7 @@ We want to thank all the people who helped translating this plugin:
 
 * **Bulgarian**: [N. Petkov](https://github.com/nmpetkov)
 * **Catalan**: [jhuguco](https://github.com/jhuguco)
-* **Chinese**: [郑东武](https://github.com/machinelll)
+* **Chinese**: [郑东武](https://github.com/machinelll), [DarwinniwraD](https://github.com/DarwinniwraD)
 * **Farsi (Persian)**: [Mohammad Hossein Rabiee](https://github.com/mhrabiee)
 * **French**: [Simon Georget](https://github.com/simogeo)
 * **German**: [Mischa Sameli](https://github.com/jenzener)
@@ -68,6 +68,10 @@ More translations are welcome and will be included in next releases. If you want
 6. Create a pull request with your changes.
 
 ## Version history
+
+### 1.5.3 - 2020-05-22
+
+* Updated Chinese translation. Thanks [DarwinniwraD](https://github.com/DarwinniwraD)!
 
 ### 1.5.2 - 2019-06-20
 
