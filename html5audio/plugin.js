@@ -21,17 +21,20 @@ CKEDITOR.plugins.add( 'html5audio', {
             },
             dialog: 'html5audio',
             init: function() {
+                var audioElement = this.element.findOne( 'audio' );
                 var src = '';
                 var autoplay = '';
                 var align = this.element.getStyle( 'text-align' );
+                var allowdownload = false;
+                var advisorytitle = '';
 
                 // If there's a child (the audio element)
-                if ( this.element.getChild( 0 ) ) {
+                if ( audioElement ) {
                     // get it's attributes.
-                    src = this.element.getChild( 0 ).getAttribute( 'src' );
-                    autoplay = this.element.getChild( 0 ).getAttribute( 'autoplay' );
-                    allowdownload = !this.element.getChild( 0 ).getAttribute( 'controlslist' );
-                    advisorytitle = this.element.getChild( 0 ).getAttribute( 'title' );
+                    src = audioElement.getAttribute( 'src' );
+                    autoplay = audioElement.getAttribute( 'autoplay' );
+                    allowdownload = !audioElement.getAttribute( 'controlslist' );
+                    advisorytitle = audioElement.getAttribute( 'title' );
                 }
 
                 if ( src ) {
@@ -50,25 +53,26 @@ CKEDITOR.plugins.add( 'html5audio', {
                     if ( allowdownload ) {
                         this.setData( 'allowdownload', 'yes' );
                     }
-								
+
                     if ( advisorytitle ) {
                         this.setData( 'advisorytitle', advisorytitle );
                     }
                 }
             },
             data: function() {
+                var audioElement = this.element.findOne( 'audio' );
                 // If there is an audio source
                 if ( this.data.src ) {
                     // and there isn't a child (the audio element)
-                    if ( !this.element.getChild( 0 ) ) {
+                    if ( !audioElement ) {
                         // Create a new <audio> element.
-                        var audioElement = new CKEDITOR.dom.element( 'audio' );
+                        audioElement = new CKEDITOR.dom.element( 'audio' );
                         // Set the controls attribute.
                         audioElement.setAttribute( 'controls', 'controls' );
                         // Append it to the container of the plugin.
                         this.element.append( audioElement );
                     }
-                    this.element.getChild( 0 ).setAttribute( 'src', this.data.src );
+                    audioElement.setAttribute( 'src', this.data.src );
                 }
 
                 this.element.removeStyle( 'float' );
@@ -89,23 +93,23 @@ CKEDITOR.plugins.add( 'html5audio', {
                     this.element.setStyle( 'margin-left', '10px' );
                 }
 
-                if ( this.element.getChild( 0 ) ) {
+                if ( audioElement ) {
                     if ( this.data.autoplay === 'yes' ) {
-                        this.element.getChild( 0 ).setAttribute( 'autoplay', 'autoplay' );
+                        audioElement.setAttribute( 'autoplay', 'autoplay' );
                     } else {
-                        this.element.getChild( 0 ).removeAttribute( 'autoplay' );
+                        audioElement.removeAttribute( 'autoplay' );
                     }
 
                     if ( this.data.allowdownload === 'yes' ) {
-                        this.element.getChild( 0 ).removeAttribute( 'controlslist' );
+                        audioElement.removeAttribute( 'controlslist' );
                     } else {
-                        this.element.getChild( 0 ).setAttribute( 'controlslist', 'nodownload' );
+                        audioElement.setAttribute( 'controlslist', 'nodownload' );
                     }
 
                     if ( this.data.advisorytitle ) {
-                        this.element.getChild( 0 ).setAttribute( 'title', this.data.advisorytitle );
+                        audioElement.setAttribute( 'title', this.data.advisorytitle );
                     } else {
-                        this.element.getChild( 0 ).removeAttribute( 'title' );
+                        audioElement.removeAttribute( 'title' );
                     }
                 }
             }
@@ -121,10 +125,10 @@ CKEDITOR.plugins.add( 'html5audio', {
             });
 
             editor.contextMenu.addListener( function( element ) {
-                if ( element &&
-                     element.getChild( 0 ) &&
-                     element.getChild( 0 ).hasClass &&
-                     element.getChild( 0 ).hasClass( 'ckeditor-html5-audio' ) ) {
+                var audioElement = element && element.findOne( 'audio' );
+                if ( audioElement &&
+                     audioElement.hasClass &&
+                     audioElement.hasClass( 'ckeditor-html5-audio' ) ) {
                     return { html5audioPropertiesItem: CKEDITOR.TRISTATE_OFF };
                 }
             });
