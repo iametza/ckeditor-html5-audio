@@ -38,9 +38,11 @@ We want to thank all the people who helped translating this plugin:
 * **Catalan**: [jhuguco](https://github.com/jhuguco)
 * **Chinese**: [郑东武](https://github.com/machinelll), [DarwinniwraD](https://github.com/DarwinniwraD)
 * **Farsi (Persian)**: [Mohammad Hossein Rabiee](https://github.com/mhrabiee)
-* **French**: [Simon Georget](https://github.com/simogeo)
+* **French**: [Simon Georget](https://github.com/simogeo), [Mischa Sameli](https://github.com/jenzener)
 * **German**: [Mischa Sameli](https://github.com/jenzener)
+* **Swiss German**: [Mischa Sameli](https://github.com/jenzener)
 * **Greek**: [Dimitris Kritsotakis](https://github.com/dimitriskr)
+* **Polish**: [elanpl](https://github.com/elanpl)
 * **Russian**: [smartcorestudio](https://github.com/smartcorestudio)
 * **Ukrainian** [Sensetivity](https://github.com/Sensetivity)
 * **Uzbek** [Bahriddin Abdiev](https://github.com/bahriddin)
@@ -62,12 +64,18 @@ More translations are welcome and will be included in next releases. If you want
 5. Add the two letter code of your language to the string in the third line of the plugin.js file:
 
     ```
-    lang: 'bg,ca,de,el,en,eu,es,fa,fr,ru,uk,uz,zh-cn',
+    lang: 'bg,ca,de,de-ch,el,en,eu,es,fr,ru,uk,uz,zh-cn,fa,pl',
     ```
 
 6. Create a pull request with your changes.
 
 ## Version history
+
+### 1.5.4 - 2021-06-11
+
+* Added Swiss German translation. Thanks [Mischa Sameli](https://github.com/jenzener)!
+* Added Polish translation. Thanks [elanpl](https://github.com/elanpl)!
+* Added compatibility with codemirror and textselection plugins. Thanks [vkmet](https://github.com/vkmet)!
 
 ### 1.5.3 - 2020-05-22
 
